@@ -92,18 +92,18 @@ function start(el) {
 
 
 
-// // 
-// let scrol = ScrollReveal({
-//   distance: '45px',
-//   duration: 2700,
-//   reset:true
-// })
+// 
+let scrol = ScrollReveal({
+  distance: '45px',
+  duration: 2700,
+  reset:true
+})
 
-// scrol.reveal('.home-text', {delay:350,origin:'left'})
-// scrol.reveal('.home img', {delay:350,origin:'right'})
-// scrol.reveal('.social-media', { delay: 350, origin: 'left' })
+scrol.reveal('.home-text', {delay:350,origin:'left'})
+scrol.reveal('.home img', {delay:350,origin:'right'})
+scrol.reveal('.social-media', { delay: 350, origin: 'left' })
 
-// // About
+// About
 
 // scrol.reveal('.About, .servise ,.project,.gallery ,.certificates ,.blog ,.contact', {delay:200,origin:'bottom'})
 
